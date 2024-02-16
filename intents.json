@@ -1,0 +1,175 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How may I help you?",
+        "Hey! Welcome. How can I be of service?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Farewell"
+      ],
+      "responses": [
+        "Goodbye! If you have any more questions, feel free to ask.",
+        "Bye! Have a great day!",
+        "See you later! Safe travels."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome! If you need anything else, feel free to ask.",
+        "No problem! Let me know if there's anything else I can do for you.",
+        "Glad I could help! If you have more questions, just ask."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "Assistance",
+        "Can you help me?"
+      ],
+      "responses": [
+        "Of course! I'm here to assist you. What do you need help with?",
+        "Certainly! What can I help you with today?",
+        "Sure, I'm here to help. What do you require assistance with?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "book_hotel",
+      "patterns": [
+        "Book a hotel",
+        "Reserve a room",
+        "Hotel booking",
+        "I want to book a room"
+      ],
+      "responses": [
+        "Great choice! I can help you with hotel reservations. When and where would you like to book?",
+        "Sure thing! To assist you better, could you provide the check-in and check-out dates?",
+        "Absolutely! Let's get started with your hotel booking. When are you planning to check in?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cancel_reservation",
+      "patterns": [
+        "Cancel reservation",
+        "I want to cancel my booking",
+        "Cancel my reservation"
+      ],
+      "responses": [
+        "I understand. To proceed with the cancellation, could you please provide your booking details?",
+        "Certainly. To cancel your reservation, I'll need some information. Can you provide your booking reference number?",
+        "I'm sorry to hear that. To cancel your booking, please provide the necessary details such as your reservation ID."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "check_availability",
+      "patterns": [
+        "Check room availability",
+        "Are there any rooms available?",
+        "What rooms do you have?"
+      ],
+      "responses": [
+        "Sure, let me check the availability for you. Could you please specify the dates you're interested in?",
+        "Certainly! To assist you with room availability, may I know the check-in and check-out dates?",
+        "Of course. To check room availability, please provide the dates you're looking for."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "modify_reservation",
+      "patterns": [
+        "Modify reservation",
+        "Change booking details",
+        "Update reservation"
+      ],
+      "responses": [
+        "Certainly, I can help you modify your reservation. What changes would you like to make?",
+        "Sure thing! To update your reservation, please let me know the details you'd like to change.",
+        "No problem. Let me assist you in modifying your reservation. What changes do you have in mind?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "get_confirmation",
+      "patterns": [
+        "Get booking confirmation",
+        "Can I have my reservation details?",
+        "Send me a confirmation email"
+      ],
+      "responses": [
+        "Certainly! I'll send you a confirmation email shortly with all the details of your reservation.",
+        "Sure, I can provide you with a confirmation email. May I know the email address to send it to?",
+        "Of course! To get your booking confirmation, could you please provide your reservation ID?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "pricing_info",
+      "patterns": [
+        "How much does a room cost?",
+        "Tell me about your prices",
+        "What is the rate for a night?"
+      ],
+      "responses": [
+        "The room rates vary based on the dates and room type. Could you specify your check-in and check-out dates?",
+        "Certainly! The pricing depends on the dates of your stay and the type of room. When are you planning to check in?",
+        "To provide you with accurate pricing, I'll need to know your check-in and check-out dates. Could you please provide them?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "amenities",
+      "patterns": [
+        "Tell me about hotel amenities",
+        "What facilities do you have?",
+        "List hotel services"
+      ],
+      "responses": [
+        "Our hotel offers a range of amenities, including [list of amenities]. Is there anything specific you would like to know more about?",
+        "Certainly! We have various amenities such as [list of amenities]. Is there something specific you're interested in?",
+        "Sure, our hotel provides amenities like [list of amenities]. Anything particular you'd like more information on?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Leave feedback",
+        "Provide a review",
+        "I want to share my experience"
+      ],
+      "responses": [
+        "We appreciate your feedback! Feel free to share your experience, and let us know how we can improve.",
+        "Thank you for your feedback! We value your input. Please share your experience and any suggestions you may have.",
+        "Your feedback is important to us! Please share your thoughts on your experience with our hotel."
+      ],
+      "context_set": ""
+    }
+  ]
+}
